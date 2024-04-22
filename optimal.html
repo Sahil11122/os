@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Page Replacement Calculator</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="icon" type="image/x-icon" href="/download.jpeg">
+</head>
+<body>
+    <div class="container">
+        <h1>Optimal Page Replacement Calculator</h1>
+        <div class="input-container">
+            <label for="num-pages">Number of Pages:</label><br>
+            <input type="number" id="num-pages" min="1" placeholder="Enter Number of Pages"><br><br>
+            <label for="pages">Enter Pages (comma-separated):</label><br>
+            <input type="text" id="pages" placeholder="Enter pages"><br><br>
+            <label for="capacity">Memory Capacity:</label><br>
+            <input type="number" id="capacity" min="1" placeholder="Enter Memory Capacity"><br><br>
+           
+        </div>
+        <div id="cal"><button onclick="calculate()">Calculate</button></div>
+    
+        <div id="output" class="output-container">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

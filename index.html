@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PPT.css">
+    <title>Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="/download.jpeg">
+</head>
+<body>
+
+    <h1>Page Replacement Algorithms</h1>
+
+    <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        
+                        <h4 style="color: red;">Page replacement algorithms</h4>
+                        <p style="color: red;">Page replacement algorithms are strategies used by operating systems to manage memory efficiently. </p>
+                        
+                    </div>
+                </div>
+            </label>
+            
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <a href="Fifo.html">
+                        <h4 style="color: rgb(218, 203, 0);">Fifo</h4>
+                        <p style="color: yellow;">FIFO replaces the oldest page in memory upon a page fault, employing a queue to track page order; it's simple but may suffer from Belady's Anomaly.</p>
+                         </a>
+                    </div>
+                </div>
+            </label></a>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <a href="Lru.html">
+                        <h4 style="color: yellow;">LRU</h4>
+                        <p style="color: yellow;">LRU (Least Recently Used) replaces the least recently accessed page upon a page fault, based on access timestamps; it optimally minimizes page faults but requires additional bookkeeping.</p>
+                    </a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <a href="optimal.html">
+                        <h4 style="color: yellow;">Optimal</h4>
+                        <p style="color: yellow;">Optimal replaces the page that will not be used for the longest period in the future, it's theoretically optimal but practically unimplementable due to the need for future knowledge.</p></a>
+                    </div>
+                </div>
+            </label>
+
+        </div>    
+    </div>
+    <footer>
+        <p>Made by Sahil Chalke, Ruturaj Sanap, Ayush Singh, Ganesh Mestry</p>
+      </footer>
+    
+
+
+
+    <!-- part 2 -->
+
+
+  
+    
+</body>  
+</html>
